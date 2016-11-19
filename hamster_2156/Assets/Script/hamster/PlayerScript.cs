@@ -33,6 +33,7 @@ public class PlayerScript : MonoBehaviour
     //자는 것 관련
     private int sleep;
     private int sleepcount;
+    private int sleeponce;
     public Sprite hamster_sleep;
     public GameObject sleep_sit;
 
@@ -50,6 +51,7 @@ public class PlayerScript : MonoBehaviour
         inputX = 0;
         inputY = 0;
         sleep = 0;
+        sleeponce = 0;
     }
 
     void Update()
@@ -206,13 +208,14 @@ public class PlayerScript : MonoBehaviour
         }
 
         //침대 만났을 때
-        if (col.gameObject.tag.Equals("bed"))
+        if (col.gameObject.tag.Equals("bed") && sleeponce == 0)
         {
             inputX = 0;
             inputY = 0;
 
             spriteRenderer.sprite = hamster_sleep;
             sleep = 1;
+            sleeponce = 1;
         }
     }
 }

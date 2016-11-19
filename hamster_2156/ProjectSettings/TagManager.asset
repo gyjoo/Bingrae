@@ -9,7 +9,8 @@ TagManager:
   - hamster
   - seed
   - cloud
-  - seed_dream
+  - dreamseed
+  - dreamhamster
   layers:
   - Default
   - TransparentFX
