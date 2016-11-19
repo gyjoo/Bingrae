@@ -190,6 +190,22 @@ MonoBehaviour:
   submitKey1: 330
   cancelKey0: 27
   cancelKey1: 331
+--- !u!1 &169186752 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012386170676, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
+    type: 2}
+  m_PrefabInternal: {fileID: 670999161}
+--- !u!114 &169186754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 169186752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &353782257
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,15 +433,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012386170676, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
       propertyPath: m_TagString
-      value: seed_dream
+      value: dreamseed
       objectReference: {fileID: 0}
     - target: {fileID: 1000013882182940, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
       propertyPath: m_TagString
-      value: seed_dream
+      value: dreamseed
       objectReference: {fileID: 0}
     - target: {fileID: 1000011589071538, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
       propertyPath: m_TagString
-      value: seed_dream
+      value: dreamseed
       objectReference: {fileID: 0}
     - target: {fileID: 1000013882182940, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
       propertyPath: m_Name
@@ -437,9 +453,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010632755446, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
       propertyPath: m_TagString
-      value: seed_dream
+      value: dreamseed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000012330162342, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
+    - {fileID: 114000010327285450, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
+    - {fileID: 114000010994465616, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &691764275 stripped
@@ -535,7 +554,7 @@ GameObject:
   - 114: {fileID: 860347075}
   m_Layer: 5
   m_Name: Seed_Sprite 5
-  m_TagString: seed_dream
+  m_TagString: dreamseed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -557,13 +576,12 @@ Transform:
 --- !u!114 &860347075
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010994465616, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860347073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ed660e658974240a9e0a4e2947a6bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &860347076
@@ -899,7 +917,7 @@ GameObject:
   - 114: {fileID: 1272936907}
   m_Layer: 5
   m_Name: Seed_Sprite 6
-  m_TagString: seed_dream
+  m_TagString: dreamseed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,13 +939,12 @@ Transform:
 --- !u!114 &1272936907
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010327285450, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1272936905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ed660e658974240a9e0a4e2947a6bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1272936908
@@ -1024,6 +1041,22 @@ Transform:
   m_PrefabParentObject: {fileID: 4000011079426584, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
     type: 2}
   m_PrefabInternal: {fileID: 1837163238}
+--- !u!1 &1441814173 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011589071538, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
+    type: 2}
+  m_PrefabInternal: {fileID: 670999161}
+--- !u!114 &1441814175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441814173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1447741521
 Prefab:
   m_ObjectHideFlags: 0
@@ -1098,6 +1131,15 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012354602324, guid: 04c77a9134ef74c48955a6f497392e45, type: 2}
+      propertyPath: m_TagString
+      value: dreamhamster
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000013650579844, guid: 04c77a9134ef74c48955a6f497392e45,
+        type: 2}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000010224780192, guid: 04c77a9134ef74c48955a6f497392e45, type: 2}
@@ -1376,6 +1418,11 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 2079241319
       objectReference: {fileID: 0}
+    - target: {fileID: 61000012419921100, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620, type: 2}
   m_IsPrefabParent: 0
@@ -1395,7 +1442,7 @@ GameObject:
   - 114: {fileID: 1904820680}
   m_Layer: 5
   m_Name: Seed_Sprite 4
-  m_TagString: seed_dream
+  m_TagString: dreamseed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1417,13 +1464,12 @@ Transform:
 --- !u!114 &1904820680
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000012330162342, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1904820678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ed660e658974240a9e0a4e2947a6bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1904820681
@@ -1515,3 +1561,19 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1932913489 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013882182940, guid: 9d53fbcef9e4d4a44a0c9e8dc26e3620,
+    type: 2}
+  m_PrefabInternal: {fileID: 670999161}
+--- !u!114 &1932913491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932913489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec78a27c967a97449d48e2fd1a28136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

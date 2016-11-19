@@ -34,7 +34,6 @@ public class PlayerScript_cloud : MonoBehaviour
 //    public GameObject dreaming;
     public GameObject sleep_sit;
 
-
     private float inputX, inputY;
 
     void Start()
@@ -76,8 +75,6 @@ public class PlayerScript_cloud : MonoBehaviour
         }
         else if(seednum == 6)
         {
-            Destroy(this.gameObject);
-            Destroy(sleep_sit);
             sleep_sit.SetActive(false);
         }
         else
@@ -180,7 +177,7 @@ public class PlayerScript_cloud : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         //해바라기씨 만났을 때
-        if (col.gameObject.tag.Equals("seed_dream"))
+        if (col.gameObject.tag.Equals("dreamseed"))
         {
             seednum++;
             seedcount = 1;
