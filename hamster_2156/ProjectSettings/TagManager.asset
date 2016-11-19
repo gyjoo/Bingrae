@@ -9,6 +9,7 @@ TagManager:
   - hamster
   - seed
   - cloud
+  - seed_dream
   layers:
   - Default
   - TransparentFX
@@ -46,18 +47,21 @@ TagManager:
   - name: background
     uniqueID: 1636428375
     locked: 0
-  - name: seed/bed,seed
+  - name: ui/bed,seed
     uniqueID: 2079241319
     locked: 0
-  - name: hamster
+  - name: ui/hamster
     uniqueID: 2704073275
     locked: 0
-  - name: cloud
+  - name: dream/cloud
     uniqueID: 3039206699
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: cloud_hamster
+  - name: dream/seed
     uniqueID: 1366381581
+    locked: 0
+  - name: dream/hamster
+    uniqueID: 272730483
     locked: 0

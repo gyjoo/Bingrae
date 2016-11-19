@@ -3,7 +3,7 @@
 /// <summary>
 /// Player controller and behavior
 /// </summary>
-public class PlayerScript : MonoBehaviour
+public class PlayerScript_cloud : MonoBehaviour
 {
     /// <summary>
     /// 1 - The speed of the ship
@@ -31,16 +31,14 @@ public class PlayerScript : MonoBehaviour
     public Sprite hamster_eat2; //많이 먹었을때
 
     //자는 것 관련
-    private int sleep;
-    private int sleepcount;
-    public Sprite hamster_sleep;
+//    public GameObject dreaming;
     public GameObject sleep_sit;
+
 
     private float inputX, inputY;
 
     void Start()
     {
-        sleep_sit.SetActive(false);
         spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
 
         if (spriteRenderer.sprite == null) // if the sprite on spriteRenderer is null then
@@ -49,7 +47,6 @@ public class PlayerScript : MonoBehaviour
         seedcount = 0;
         inputX = 0;
         inputY = 0;
-        sleep = 0;
     }
 
     void Update()
@@ -77,24 +74,11 @@ public class PlayerScript : MonoBehaviour
             System.Threading.Thread.Sleep(80);
 
         }
-        else if(sleep == 1)
+        else if(seednum == 6)
         {
-            spriteRenderer.sprite = hamster_sleep;
-            if (sleepcount == 20)
-            {
-                sleep_sit.SetActive(true);
-                sleepcount++;
-            }
-            else if (sleepcount < 20)
-            {
-                sleepcount++;
-            }
-            else if (sleepcount == 21 && sleep_sit.activeSelf == false)
-            {
-                sleepcount = 0;
-                sleep = 0;
-                spriteRenderer.sprite = sprite1;
-            }
+            Destroy(this.gameObject);
+            Destroy(sleep_sit);
+            sleep_sit.SetActive(false);
         }
         else
         {
@@ -139,7 +123,7 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (seedcount == 0 && sleep == 0)
+        if (seedcount == 0)
         {
             // 5 - Get the component and store the reference
             if (rigidbodyComponent == null) rigidbodyComponent = GetComponent<Rigidbody2D>();
@@ -196,23 +180,13 @@ public class PlayerScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         //해바라기씨 만났을 때
-        if (col.gameObject.tag.Equals("seed"))
+        if (col.gameObject.tag.Equals("seed_dream"))
         {
             seednum++;
             seedcount = 1;
             spriteRenderer.sprite = hamster_eating1;
             inputX = 0;
             inputY = 0;
-        }
-
-        //침대 만났을 때
-        if (col.gameObject.tag.Equals("bed"))
-        {
-            inputX = 0;
-            inputY = 0;
-
-            spriteRenderer.sprite = hamster_sleep;
-            sleep = 1;
         }
     }
 }
