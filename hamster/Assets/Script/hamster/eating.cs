@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 
 public class eating : MonoBehaviour {
 
-    private Rigidbody2D rigidbodyComponent;
 
     private SpriteRenderer spriteRenderer;
     private int seednum;
@@ -25,11 +23,16 @@ public class eating : MonoBehaviour {
 	}
 
     //해바라기씨 만났을 때
-    void onTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         //print(col.gameObject.name);
-        if (col.gameObject.tag == "seed")
+        if (col.gameObject.tag.Equals("seed"))
         {
+            if (col.isTrigger == true)
+            {
+                Debug.Log("Triggered");
+            }
+
             seednum++;
             EatingMovement();
         }

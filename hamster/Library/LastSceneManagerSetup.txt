@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 sceneSetups:
 - path: Assets/Scene_sieun.unity
   isLoaded: 1
   isActive: 1
-=======
-sceneSetups: []
->>>>>>> e52b81cdde3c8576402a64c96d7e76063e2772b4
