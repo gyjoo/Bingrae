@@ -164,7 +164,7 @@ MonoBehaviour:
   hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
   hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
   hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 02a3b56600d8e4fc2a00a72b38b77cb9, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
   hamster_sleep: {fileID: 21300000, guid: ac3854a481d8248a9b492da4cd3e32ae, type: 3}
 --- !u!212 &212000011530365050
 SpriteRenderer:
