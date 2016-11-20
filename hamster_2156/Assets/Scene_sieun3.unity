@@ -323,7 +323,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 50706024}
   m_Layer: 0
-  m_Name: getpushnum4
+  m_Name: getenqnum4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -473,7 +473,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 167812147}
   m_Layer: 0
-  m_Name: getpushnum1
+  m_Name: getenqnum1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1084,7 +1084,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 395794838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: 0}
+  m_LocalPosition: {x: -4, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1104,7 +1104,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1119628570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -701, y: 400, z: 0}
+  m_LocalPosition: {x: -701, y: 200, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1615,7 +1615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POP
+  m_Text: DEQUEUE
 --- !u!222 &548923769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1892,7 +1892,7 @@ GameObject:
   - 114: {fileID: 577353041}
   - 114: {fileID: 577353040}
   m_Layer: 5
-  m_Name: POP
+  m_Name: DEQUEUE
   m_TagString: button
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1915,7 +1915,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 600.25, y: 389.4}
-  m_SizeDelta: {x: 70, y: 30}
+  m_SizeDelta: {x: 90, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577353040
 MonoBehaviour:
@@ -2011,7 +2011,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 595720522}
   m_Layer: 0
-  m_Name: getpushnum2
+  m_Name: getenqnum2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2362,7 +2362,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 821705008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.7, z: 0}
+  m_LocalPosition: {x: 6.2, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -2704,13 +2704,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010582048274, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_Name
-      value: Hamster_stack3
+      value: Hamster_queue3
       objectReference: {fileID: 0}
     - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10,
+      objectReference: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8,
         type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -2738,18 +2738,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
 --- !u!61 &903524373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2957,7 +2957,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 942896175}
   m_Layer: 0
-  m_Name: popcheck
+  m_Name: dequeuecheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2998,7 +2998,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 944785661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalPosition: {x: -14.5, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -3072,13 +3072,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010582048274, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_Name
-      value: Hamster_stack1
+      value: Hamster_queue1
       objectReference: {fileID: 0}
     - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10,
+      objectReference: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8,
         type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -3106,18 +3106,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
 --- !u!61 &948834930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3215,7 +3215,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 977498511}
   m_Layer: 0
-  m_Name: getpushnum
+  m_Name: getenqnum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3333,18 +3333,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
   ui1: {fileID: 0}
   button: {fileID: 407512425}
 --- !u!61 &1005212240
@@ -3373,7 +3373,7 @@ GameObject:
   - 114: {fileID: 1009899050}
   - 114: {fileID: 1009899049}
   m_Layer: 5
-  m_Name: PUSH
+  m_Name: ENQUEUE
   m_TagString: button
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3396,7 +3396,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 700.25, y: 389.4}
-  m_SizeDelta: {x: 70, y: 30}
+  m_SizeDelta: {x: 90, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1009899049
 MonoBehaviour:
@@ -3600,7 +3600,7 @@ MonoBehaviour:
     e10: 0
     e11: 160
     e12: 0
-    e13: -400
+    e13: -200
     e20: 0
     e21: 0
     e22: 160
@@ -3685,7 +3685,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1194352063}
   m_Layer: 0
-  m_Name: getpushnum6
+  m_Name: getenqnum6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3915,13 +3915,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010582048274, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_Name
-      value: Hamster_stack2
+      value: Hamster_queue2
       objectReference: {fileID: 0}
     - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10,
+      objectReference: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8,
         type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -3949,18 +3949,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
 --- !u!61 &1248846011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3984,11 +3984,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013520134806, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 4000013520134806, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4000013520134806, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4027,6 +4027,12 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -4273,7 +4279,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1372160875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -4346,13 +4352,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010582048274, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_Name
-      value: Hamster_stack5
+      value: Hamster_queue5
       objectReference: {fileID: 0}
     - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10,
+      objectReference: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8,
         type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -4380,18 +4386,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
 --- !u!61 &1381243120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4428,7 +4434,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1419245481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: -9.2, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -4695,7 +4701,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1543198733}
   m_Layer: 0
-  m_Name: getpushnum5
+  m_Name: getenqnum5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4814,7 +4820,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1611215999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.6, z: 0}
+  m_LocalPosition: {x: 1.1, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -4950,13 +4956,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010582048274, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
       propertyPath: m_Name
-      value: Hamster_stack4
+      value: Hamster_queue4
       objectReference: {fileID: 0}
     - target: {fileID: 212000012172855750, guid: da8d53c27c074ca48a8eb440bc0f821f,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10,
+      objectReference: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8,
         type: 3}
     m_RemovedComponents:
     - {fileID: 114000013800461244, guid: da8d53c27c074ca48a8eb440bc0f821f, type: 2}
@@ -4984,18 +4990,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
-  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
-  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
-  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
-  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
-  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
-  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
-  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: df8440825a5ae41bb937bb483fc5572c, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
+  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
+  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
+  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
+  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
+  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
+  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
+  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
+  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 5923affaab306384bb8ac63979b4e32f, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
 --- !u!61 &1620727847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5143,7 +5149,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1712952730}
   m_Layer: 0
-  m_Name: getpushnum3
+  m_Name: getenqnum3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5233,7 +5239,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1749951910}
   m_Layer: 0
-  m_Name: pushcheck
+  m_Name: enqueuecheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5673,7 +5679,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1590894021
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3deb3a2ec98040f498e7fa367f7fc391, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e6fb42f65f272d4698970131614e8fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5684,7 +5690,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917350139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1000, y: -64, z: 0}
+  m_LocalPosition: {x: 600, y: -400, z: 0}
   m_LocalScale: {x: 50, y: 50, z: 160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -5721,7 +5727,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 10, y: 15}
+  m_Size: {x: 28, y: 7}
 --- !u!114 &1917350144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5730,23 +5736,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1917350139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e615c684ca0d145887c83d5ef354e5, type: 3}
+  m_Script: {fileID: 11500000, guid: bc9cd555fb41b914995bf1606cf6f494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stack0: {fileID: 21300000, guid: bc6db723e0df42548bbde280f5681322, type: 3}
-  stack1: {fileID: 21300000, guid: 491afc9eaee29e6428062ad9b8b01086, type: 3}
-  stack2: {fileID: 21300000, guid: fc0c620b388cb974498e5101fce4df1a, type: 3}
-  stack3: {fileID: 21300000, guid: 20917237250cadb4787905182e82ae6d, type: 3}
-  stack4: {fileID: 21300000, guid: 470fc639748bb8c4d86a909b58198bc0, type: 3}
-  stack5: {fileID: 21300000, guid: 3deb3a2ec98040f498e7fa367f7fc391, type: 3}
+  queue0: {fileID: 21300000, guid: bc6db723e0df42548bbde280f5681322, type: 3}
+  queue1: {fileID: 21300000, guid: ada296eba861a73469607df4eac56aee, type: 3}
+  queue2: {fileID: 21300000, guid: b348e884cbb63024994655fb71e7ff9e, type: 3}
+  queue3: {fileID: 21300000, guid: e91ba6441d08ed4499e86dc5b8ccad53, type: 3}
+  queue4: {fileID: 21300000, guid: 7216fb6e2c3ae314fb782ab61bd8e6d3, type: 3}
+  queue5: {fileID: 21300000, guid: 7e6fb42f65f272d4698970131614e8fc, type: 3}
   hams1: {fileID: 948834928}
   hams2: {fileID: 1248846009}
   hams3: {fileID: 903524371}
   hams4: {fileID: 1620727845}
   hams5: {fileID: 1381243118}
   hams6: {fileID: 1005212235}
-  pop: {fileID: 942896174}
-  push: {fileID: 1749951909}
+  dequeue: {fileID: 942896174}
+  enqueue: {fileID: 1749951909}
   numbutton: {fileID: 413739531}
   numbutton1: {fileID: 563520215}
   numbutton2: {fileID: 921242099}
@@ -5754,42 +5760,42 @@ MonoBehaviour:
   numbutton4: {fileID: 507972518}
   numbutton5: {fileID: 499014596}
   numbutton6: {fileID: 100942613}
-  pushnum1: {fileID: 167812146}
-  pushnum2: {fileID: 595720521}
-  pushnum3: {fileID: 1712952729}
-  pushnum4: {fileID: 50706023}
-  pushnum5: {fileID: 1543198732}
-  pushnum6: {fileID: 1194352062}
-  stacknum11: {fileID: 919372848}
-  stacknum12: {fileID: 729770114}
-  stacknum13: {fileID: 1611738160}
-  stacknum14: {fileID: 198223964}
-  stacknum15: {fileID: 764811034}
-  stacknum16: {fileID: 386631133}
-  stacknum21: {fileID: 263531182}
-  stacknum22: {fileID: 1197457169}
-  stacknum23: {fileID: 1856352065}
-  stacknum24: {fileID: 1129514324}
-  stacknum25: {fileID: 597522427}
-  stacknum26: {fileID: 27598538}
-  stacknum31: {fileID: 871004292}
-  stacknum32: {fileID: 201708518}
-  stacknum33: {fileID: 1651415375}
-  stacknum34: {fileID: 1273882241}
-  stacknum35: {fileID: 511978120}
-  stacknum36: {fileID: 693693367}
-  stacknum41: {fileID: 1554064298}
-  stacknum42: {fileID: 5695403}
-  stacknum43: {fileID: 1799641986}
-  stacknum44: {fileID: 177655897}
-  stacknum45: {fileID: 2052378596}
-  stacknum46: {fileID: 662278169}
-  stacknum51: {fileID: 1893730901}
-  stacknum52: {fileID: 308929337}
-  stacknum53: {fileID: 1963741965}
-  stacknum54: {fileID: 1424135966}
-  stacknum55: {fileID: 850004001}
-  stacknum56: {fileID: 2024010793}
+  enqueuenum1: {fileID: 167812146}
+  enqueuenum2: {fileID: 595720521}
+  enqueuenum3: {fileID: 1712952729}
+  enqueuenum4: {fileID: 50706023}
+  enqueuenum5: {fileID: 1543198732}
+  enqueuenum6: {fileID: 1194352062}
+  queuenum11: {fileID: 919372848}
+  queuenum12: {fileID: 729770114}
+  queuenum13: {fileID: 1611738160}
+  queuenum14: {fileID: 198223964}
+  queuenum15: {fileID: 764811034}
+  queuenum16: {fileID: 386631133}
+  queuenum21: {fileID: 263531182}
+  queuenum22: {fileID: 1197457169}
+  queuenum23: {fileID: 1856352065}
+  queuenum24: {fileID: 1129514324}
+  queuenum25: {fileID: 597522427}
+  queuenum26: {fileID: 27598538}
+  queuenum31: {fileID: 871004292}
+  queuenum32: {fileID: 201708518}
+  queuenum33: {fileID: 1651415375}
+  queuenum34: {fileID: 1273882241}
+  queuenum35: {fileID: 511978120}
+  queuenum36: {fileID: 693693367}
+  queuenum41: {fileID: 1554064298}
+  queuenum42: {fileID: 5695403}
+  queuenum43: {fileID: 1799641986}
+  queuenum44: {fileID: 177655897}
+  queuenum45: {fileID: 2052378596}
+  queuenum46: {fileID: 662278169}
+  queuenum51: {fileID: 1893730901}
+  queuenum52: {fileID: 308929337}
+  queuenum53: {fileID: 1963741965}
+  queuenum54: {fileID: 1424135966}
+  queuenum55: {fileID: 850004001}
+  queuenum56: {fileID: 2024010793}
 --- !u!1 &1963741965
 GameObject:
   m_ObjectHideFlags: 0
@@ -6179,7 +6185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUSH
+  m_Text: ENQUEUE
 --- !u!222 &2134303257
 CanvasRenderer:
   m_ObjectHideFlags: 0
