@@ -11,6 +11,8 @@ TagManager:
   - cloud
   - dreamseed
   - dreamhamster
+  - hamster_stack
+  - button
   layers:
   - Default
   - TransparentFX
