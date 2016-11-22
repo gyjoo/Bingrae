@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - background
+  - bed
+  - hamster
+  - seed
+  - cloud
+  - dreamseed
+  - dreamhamster
+  - hamster_stack
+  - button
+  - goto3
+  - blackhole
+  - goto2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Dream
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 1636428375
+    locked: 0
+  - name: ui/bed,seed
+    uniqueID: 2079241319
+    locked: 0
+  - name: ui/hamster
+    uniqueID: 2704073275
+    locked: 0
+  - name: dream/cloud
+    uniqueID: 3039206699
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: dream/seed
+    uniqueID: 1366381581
+    locked: 0
+  - name: dream/hamster
+    uniqueID: 272730483
+    locked: 0
