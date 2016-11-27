@@ -26,12 +26,15 @@ public class GoToNextStage : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col)
 	{
 		if(col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto2"))
-			Application.LoadLevel(2);
-		
+        {
+            Application.LoadLevel(2);
+        }
 
-		if(col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto3"))
-			Application.LoadLevel(3);
 
+        if (col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto3"))
+        {
+            Application.LoadLevel(3);
+        }
 
 	}
 }
