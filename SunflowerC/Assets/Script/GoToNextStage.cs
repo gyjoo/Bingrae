@@ -12,13 +12,6 @@ public class GoToNextStage : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		/*
-		if (PlayerScript.seednum == 3 && PlayerScript.sleeponce == 1) {
-			System.Threading.Thread.Sleep(100);
-			Application.LoadLevel(2);
-			}
-	*/
-
 }
 
 
@@ -27,16 +20,11 @@ public class GoToNextStage : MonoBehaviour {
 	{
 		if(col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto2"))
         {
-            Application.LoadLevel(2);
-            PlayerScript.seednum = 0;
+            if(PlayerScript.sleeponce2 == 2)
+            {
+                Application.LoadLevel(2);
+                PlayerScript.seednum = 0;
+            }
         }
-
-
-        if (col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto3"))
-        {
-            Application.LoadLevel(3);
-            PlayerScript.seednum = 0;
-        }
-
     }
 }
