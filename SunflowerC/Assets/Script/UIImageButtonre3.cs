@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 
 [AddComponentMenu("NGUI/UI/Image Button")]
-public class UIImageButtonre : MonoBehaviour
+public class UIImageButtonre3 : MonoBehaviour
 {
     public UISprite target;
     public string normalSprite;
@@ -74,10 +74,11 @@ public class UIImageButtonre : MonoBehaviour
     {
         if (pressed)
         {
-            PlayerScript.seednum = 0;
+            PlayerScript_scene2_stack_answer.seednum = 0;
+            PlayerScript_scene2_stack_answer_2.seednum = 0;
             target.spriteName = pressedSprite;
             target.MakePixelPerfect();
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
         else UpdateImage();
     }

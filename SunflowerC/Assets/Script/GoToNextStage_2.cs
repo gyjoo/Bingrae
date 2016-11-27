@@ -41,6 +41,7 @@ public class GoToNextStage_2 : MonoBehaviour {
                     && stacknum32.activeSelf == true && stacknum41.activeSelf == true
                     && stacknum56.activeSelf == true)
                 {
+                    PlayerScript_scene2_stack_answer.seednum = 0;
                     Application.LoadLevel(3);
                 }
             }
