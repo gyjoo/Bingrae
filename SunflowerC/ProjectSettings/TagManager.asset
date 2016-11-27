@@ -16,6 +16,8 @@ TagManager:
   - goto3
   - blackhole
   - goto2
+  - bed_cba
+  - dreamseed_cba
   layers:
   - Default
   - TransparentFX

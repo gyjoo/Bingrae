@@ -28,13 +28,15 @@ public class GoToNextStage : MonoBehaviour {
 		if(col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto2"))
         {
             Application.LoadLevel(2);
+            PlayerScript.seednum = 0;
         }
 
 
         if (col.gameObject.tag.Equals("hamster") && this.gameObject.tag.Equals("goto3"))
         {
             Application.LoadLevel(3);
+            PlayerScript.seednum = 0;
         }
 
-	}
+    }
 }

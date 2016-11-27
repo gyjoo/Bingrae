@@ -3,7 +3,7 @@
 /// <summary>
 /// Player controller and behavior
 /// </summary>
-public class PlayerScript : MonoBehaviour
+public class PlayerScript_cloud2 : MonoBehaviour
 {
     /// <summary>
     /// 1 - The speed of the ship
@@ -21,33 +21,26 @@ public class PlayerScript : MonoBehaviour
     public Sprite sprite4; //뒷모습2
     public Sprite sprite5; //앞모습1
     public Sprite sprite6; //앞모습2
+	public Sprite sprite7;
+	public Sprite sprite8;
+
 
     //해바라기씨 먹는것과 관련
-    static public int seedcount; // 먹는 프레임 반복을 위함
-    static public int seednum; //먹은 개수. 다른 스크립트에서 사용하므로 static 선언
+    private int seednum; //먹은 개수
+    private int seedcount;
     public Sprite hamster_eat0; //앞모습
     public Sprite hamster_eating1; //먹는 모습
     public Sprite hamster_eat1; //조금 먹었을때
     public Sprite hamster_eat2; //많이 먹었을때
 
     //자는 것 관련
-    private int sleep;
-    private int sleepcount;
-    static public int sleeponce;
-    private int sleeponce2;
-    public Sprite hamster_sleep;
+//    public GameObject dreaming;
     public GameObject sleep_sit;
-    public GameObject sleep_sit2;
 
     private float inputX, inputY;
 
-    // 단순 정지
-    static public bool stop = false;
-
     void Start()
     {
-        sleep_sit.SetActive(false);
-        sleep_sit2.SetActive(false);
         spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
 
         if (spriteRenderer.sprite == null) // if the sprite on spriteRenderer is null then
@@ -56,18 +49,10 @@ public class PlayerScript : MonoBehaviour
         seedcount = 0;
         inputX = 0;
         inputY = 0;
-        sleep = 0;
-        sleeponce = 0;
-        sleeponce2 = 0;
     }
 
     void Update()
     {
-        if (stop == true) {
-            System.Threading.Thread.Sleep(10);
-        }
-
-
         if (seedcount > 0)
         {
             if (seedcount % 2 == 1)
@@ -91,28 +76,9 @@ public class PlayerScript : MonoBehaviour
             System.Threading.Thread.Sleep(80);
 
         }
-        else if (sleep == 1)
+        else if(seednum == 4)
         {
-            spriteRenderer.sprite = hamster_sleep;
-            if (sleepcount == 20)
-            {
-                if (sleeponce == 1)
-                    sleep_sit.SetActive(true);
-                else if (sleeponce == 2)
-                    sleep_sit2.SetActive(true);
-
-                sleepcount++;
-            }
-            else if (sleepcount < 20)
-            {
-                sleepcount++;
-            }
-            else if (sleepcount == 21 && (sleep_sit.activeSelf == false && sleep_sit2.activeSelf == false))
-            {
-                sleepcount = 0;
-                sleep = 0;
-                spriteRenderer.sprite = sprite1;
-            }
+            sleep_sit.SetActive(false);
         }
         else
         {
@@ -130,18 +96,11 @@ public class PlayerScript : MonoBehaviour
             {
                 ChangeTheDarnSpriteRight();
 
-                Vector3 scale = transform.localScale;
-                scale.x = -Mathf.Abs(scale.x);
-                transform.localScale = scale;
             }
             else if (inputX < 0)
             {
                 ChangeTheDarnSpriteLeft();
-
-                Vector3 scale = transform.localScale;
-                scale.x = Mathf.Abs(scale.x);
-                transform.localScale = scale;
-            }
+			            }
 
             //상하로 움직일 때 캐릭터 변경
             if (inputY > 0)
@@ -157,7 +116,7 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (seedcount == 0 && sleep == 0)
+        if (seedcount == 0)
         {
             // 5 - Get the component and store the reference
             if (rigidbodyComponent == null) rigidbodyComponent = GetComponent<Rigidbody2D>();
@@ -175,12 +134,12 @@ public class PlayerScript : MonoBehaviour
     //캐릭터 이동시 SPRITE 변경
     void ChangeTheDarnSpriteRight()
     {
-        if (spriteRenderer.sprite == sprite1)
-            spriteRenderer.sprite = sprite2;
-        else if (spriteRenderer.sprite == sprite2)
-            spriteRenderer.sprite = sprite1;
+        if (spriteRenderer.sprite == sprite7)
+            spriteRenderer.sprite = sprite8;
+        else if (spriteRenderer.sprite == sprite8)
+            spriteRenderer.sprite = sprite7;
         else
-            spriteRenderer.sprite = sprite1;
+            spriteRenderer.sprite = sprite7;
     }
     void ChangeTheDarnSpriteLeft()
     {
@@ -214,38 +173,14 @@ public class PlayerScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         //해바라기씨 만났을 때
-        if (col.gameObject.tag.Equals("seed") || col.gameObject.tag.Equals("dreamseed_cba"))
+        if (col.gameObject.tag.Equals("dreamseed_cba"))
         {
             seednum++;
-			TextBoxManager.TextBox++;
+            PlayerScript.seednum++;
             seedcount = 1;
             spriteRenderer.sprite = hamster_eating1;
             inputX = 0;
             inputY = 0;
-        }
-
-        //침대 만났을 때
-        if (col.gameObject.tag.Equals("bed") && (sleeponce == 0 || sleeponce == 2) && sleeponce2 != 2)
-        {
-            inputX = 0;
-            inputY = 0;
-
-            spriteRenderer.sprite = hamster_sleep;
-            sleep = 1;
-            sleeponce = 1;
-            sleeponce2++;
-        }
-
-        //침대2 만났을 때
-        if (col.gameObject.tag.Equals("bed_cba") && (sleeponce == 0 || sleeponce == 1) && sleeponce2 != 2)
-        {
-            inputX = 0;
-            inputY = 0;
-
-            spriteRenderer.sprite = hamster_sleep;
-            sleep = 1;
-            sleeponce = 2;
-            sleeponce2++;
         }
     }
 }
