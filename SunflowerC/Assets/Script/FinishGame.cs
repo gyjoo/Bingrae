@@ -29,6 +29,8 @@ public class FinishGame : MonoBehaviour {
                    && stacknum33.activeSelf == true && stacknum41.activeSelf == true
                    && stacknum52.activeSelf == true)
                 {
+                    PlayerScript_scene2_stack_answer.seednum = 0;
+                    PlayerScript_scene2_stack_answer_2.seednum = 0;
                     Application.LoadLevel(4);
                 }
             }
