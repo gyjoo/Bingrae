@@ -3681,18 +3681,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 3}
-  sprite1: {fileID: 21300000, guid: e5668794cbc0bf34d8e738c4ea3a9cf8, type: 3}
-  sprite2: {fileID: 21300000, guid: 437014943933b3f4fb042d9128f39fd2, type: 3}
-  sprite3: {fileID: 21300000, guid: f69654c8c3f797545a4fa98fb917c83c, type: 3}
-  sprite4: {fileID: 21300000, guid: 62369ca32b2f67b43a4caf825f8b954c, type: 3}
-  sprite5: {fileID: 21300000, guid: cdd0c183a88dc4342beac4a3966468a0, type: 3}
-  sprite6: {fileID: 21300000, guid: 52ec6d712785a3e468f643899513a28e, type: 3}
-  sprite7: {fileID: 21300000, guid: 3137655b6ee8814419156d1648e1830e, type: 3}
-  sprite8: {fileID: 21300000, guid: 0905b1cbb2ec8db45988fa87793f9a38, type: 3}
-  hamster_eat0: {fileID: 21300000, guid: d806570c7c584eb4294b024fb6f0e1f5, type: 3}
-  hamster_eating1: {fileID: 21300000, guid: cf9051fb5663cc24594afecc523faf43, type: 3}
-  hamster_eat1: {fileID: 21300000, guid: 171edb0af05f55841bb668b0ccff02ee, type: 3}
-  hamster_eat2: {fileID: 21300000, guid: d259e7e9966300347ab5838550bcabdf, type: 3}
+  sprite1: {fileID: 21300000, guid: 1569cc123ece142a5b18600085f255e5, type: 3}
+  sprite2: {fileID: 21300000, guid: eab02c6da4cce442da9e2bccecff3396, type: 3}
+  sprite3: {fileID: 21300000, guid: 2595b15fa748a40acb6a4373d404be52, type: 3}
+  sprite4: {fileID: 21300000, guid: 6665c2770d45540d9bfd2c3e1274ba50, type: 3}
+  sprite5: {fileID: 21300000, guid: d19232e1fb11c4337b19e32e011e5a9b, type: 3}
+  sprite6: {fileID: 21300000, guid: d5f81fd96ac68448997b12c6ba025119, type: 3}
+  sprite7: {fileID: 21300000, guid: 5915d2655034b4397acf0bfc87f59f10, type: 3}
+  sprite8: {fileID: 21300000, guid: b70383e5cff894eb28ea04ce020855c7, type: 3}
+  hamster_eat0: {fileID: 21300000, guid: 96170636cc5954f5a9f7d95c849d9072, type: 3}
+  hamster_eating1: {fileID: 21300000, guid: 5c7492fb0f58b4f4f86161fb6b61f1e0, type: 3}
+  hamster_eat1: {fileID: 21300000, guid: 02a3b56600d8e4fc2a00a72b38b77cb9, type: 3}
+  hamster_eat2: {fileID: 21300000, guid: 8be92ba603dcfb84ca9e917b11f6a515, type: 3}
   sleep_sit: {fileID: 1642605766}
 --- !u!1 &1957842572
 GameObject:
