@@ -7,11 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/0_Start_menu.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Dialog + Scene_sieun.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene_sieun2.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene_sieun3.unity
   - enabled: 1
     path: Assets/Clear_scene.unity
